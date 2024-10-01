@@ -18,7 +18,7 @@ public class SkillDataEditor : Editor
         
         EditorGUILayout.Space();
 
-        skillData.skillImage  = (Sprite)EditorGUILayout.ObjectField("¿ÃπÃ¡ˆ", skillData.skillImage, typeof(Sprite), true);
+        skillData.skillImage  = (Sprite)EditorGUILayout.ObjectField("Sprite", skillData.skillImage, typeof(Sprite), true);
 
         EditorGUILayout.Space();
 

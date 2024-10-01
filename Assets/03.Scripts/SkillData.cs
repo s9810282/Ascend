@@ -13,6 +13,12 @@ public class SkillData : ScriptableObject
      
     //아 시발 버프 디버프 나중에 함
 
-    public Vector2Int[] skillRangePositions;
+    public Vector3Int[] skillRangePositions;
 
+
+
+    public Vector3Int[] GetSkillArea()
+    {
+        return skillRangePositions;
+    }
 }

@@ -9,6 +9,7 @@ public enum UnitType
 }
 
 
+[System.Serializable]
 public class UnitInfo
 {
     public int hp;
@@ -29,7 +30,9 @@ public class UnitInfo
 public class UnitData : ScriptableObject
 {
     public UnitInfo unitInfo;
+    [Space(10f)]
     public Sprite defaultImage;
+    [Space(10f)]
     public List<SkillData> skills;
 }
 
